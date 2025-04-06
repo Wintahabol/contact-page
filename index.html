@@ -1,120 +1,119 @@
 <!DOCTYPE html>
 <html lang="eng-ca">
+
   <head>
-    <meta charset="utc-8">
-    <title>Exercise 7</title>
-    <!--Made by Winta Habol on March 5, 2025-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winta Habol</title>
+    <!--Made by Winta Habol on March 24, 2025-->
 
-    <!--header font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
 
-    <!--body font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <style>
-      html {
-        font-size: 16px;
-        background-color: FloralWhite;
+      /* navigation button style */
+      .button {
+        background-color: #FFDCF3;
+        border: 1px solid white;
+        color: #80767C;
+        padding: 9px 24px;
+        text-align: center;
+        border-radius: 20px;
+        display: inline-block;
+        font-family: "Italiana", sans-serif;
+        font-size: 18px;
+        margin: 4px 2px;
+        cursor: pointer;
       }
 
-      #recipe {
-        width: 1200px;
+      .button:hover {
+        background: #F3D1E7;
       }
 
-      #leftcolumn {
-        float: left;
-        width: 350px;
+
+      /* button positioning */
+      .button1 {
+        position: relative;
+        float: right;
+        margin-right: 25px;
       }
 
-      #rightcolumn {
-        float: left;
-        width: 500px;
+      body {
+        font-family: "MonteCarlo", cursive;
+        font-weight: 400;
+        font-size: 40px;
+        font-style: normal;
+
+        color: black;
+        background-color: white;
       }
 
+      /* Cursive title style */
       h1 {
-        font-size: 2em;
-        color: DarkOliveGreen;
+        font-family: "MonteCarlo", cursive;
+
+        position: absolute;
+        margin-left: 50px;
+        top: 20px;
       }
 
+      /* subheading title style */
       h2 {
-        font-size: 1.5em;
-        color: oliveDrab;
+        font-family: "Italiana", sans-serif;
+        font-size: 40px;
       }
 
-      h1,
-      h2 {
-        font-family: "DM Serif Display", serif;
-        font-weight: 400;
-        font-style: normal;
-        padding: 1px;
-        margin-top: 5px;
-        margin-left: 10px;
-      }
-      
-      h3 {
-        font-family: "Antic Slab", serif;
-        font-weight: 600;
-        font-style: normal;
-        line-height: 1.2em;
-        letter-spacing: 1px;
-        font-size: 1.1em;
-        margin-left: 10px;
+      #header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 350px;
+        background-color: #FFDCF3;
+        margin: 0 auto;
       }
 
-      p,
-      li {
-        font-family: "Antic Slab", serif;
-        font-weight: 400;
-        font-style: normal;
-        line-height: 1.2em;
-        letter-spacing: 1px;
-        font-size: 1em;
-        margin-left: 10px;
-      }
+
+
+  
+
+      /* project 1 */
+      #section {
+        position: absolute;
+        top: 400px;
+        left: 20px;
+        }
+
+        
     </style>
   </head>
 
   <body>
-    <!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
-    <div id="recipe">
-      <div id="leftcolumn">
 
-        <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
-        <p>By: Martha Rose Shulman<br>
-          Yield: 3 Servings</p>
+    <div id="header"></div>
 
-        <h2>Ingredients</h2>
+    <!--Linked Buttons-->
+    <button class="button button1">Contact</button>
 
-        <li>1 tablespoon canola oil</li>
-        <li>½ pound tofu, cut in small dice</li>
-        <li>1 large garlic clove, minced</li>
-        <li>1 teaspoon grated or minced fresh ginger</li>
-        <li>¼ teaspoon red chili flakes</li>
-        <li> Soy sauce to taste</li>
-        <li>16-ounce bag baby spinach, rinsed</li>
-        <li>2 tablespoons toasted sesame seeds</li>
-        <li>1 teaspoon sesame oil</li>
-      </div>
+    <a href="https://wintahabol.github.io/playground-page/">
+      <button class="button button1">Playground</button>
+    </a>
 
-      <div id="rightcolumn">
+    <a href="https://wintahabol.github.io/projects-page/">
+      <button class="button button1">Projects</button>
+    </a>
 
-        <img src="Exercise 6 photo recipe-photo-Enhanced-SR.jpg" alt="bowl of spinich, tofu and sesame stir fry with pita bread on the side on a creme coloured table" style="width:500px;">
+    <a href="https://wintahabol.github.io/Winta-Habol-Portfolio/">
+      <button class="button button1">Home</button>
+    </a>
 
-        <h2>Preparation</h2>
+    <!--Page Title -->
+    <h1>Contact</h1>
 
-        <h3>Step 1</h3>
-        <p>Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.</p>
+    <!--Section-->
+    
 
-        <h3>Step 2</h3>
-        <p>Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.</p>
-
-        <h3>Tip</h3>
-        <p>Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
-      </div>
-    </div>
   </body>
 </html>
