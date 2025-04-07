@@ -13,6 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <style>
       /* navigation button style */
+
+      /* Code copied from: [https://www.w3schools.com/css/css3_buttons.asp]
+Author: [w3schools]
+Name: [CSS Buttons]
+Description: [Rounded buttons, with pointer]
+Date retrieved: [March 19, 2025]*/
       .button {
         background-color: #FFDCF3;
         border: 1px solid white;
@@ -75,18 +81,41 @@
         margin: 0 auto;
       }
 
-
-
-  
-
-      /* project 1 */
+      /* contact details */
       #section {
         position: absolute;
-        top: 400px;
-        left: 20px;
-        }
+        top: 300px;
+        left: 400px;
+        width: 500px;
+        height: 350px;
 
-        
+
+        table,
+        th,
+        td {
+          border: 1px solid white;
+          background: black;
+
+          font-family: italiana, sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 2px;
+          color: #FFDCF3;
+          /*light pink*/
+
+          padding: 15px;
+          text-align: justify;
+
+          a {
+            color: white;
+          }
+
+          th {
+            background: #FFDCF3;
+            color: black;
+          }
+        }
+      }
     </style>
   </head>
 
@@ -95,10 +124,10 @@
     <div id="header"></div>
 
     <!--Linked Buttons-->
-    <a href="https://wintahabol.github.io/contact-page/"> 
-    <button class="button button1">Contact</button>
+    <a href="https://wintahabol.github.io/contact-page/">
+      <button class="button button1">Contact</button>
     </a>
-    
+
     <a href="https://wintahabol.github.io/playground-page/">
       <button class="button button1">Playground</button>
     </a>
@@ -115,7 +144,36 @@
     <h1>Contact</h1>
 
     <!--Section-->
-    
+    <div id="section">
+
+      <!--Code copied from: [https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table3]
+Author: [w3schools]
+Name: [HTML Tables]
+Description: [HTML Table chart]
+Date retrieved: [March 31, 2025]-->
+      <table style="width:100%">
+        <tr>
+          <th>Contact</th>
+          <th>Email</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>Winta Habol</td>
+
+          <!-- navigation button style */
+
+      /* Code copied from: [https://www.w3schools.com/css/css3_buttons.asp]
+Author: [w3schools]
+Name: [HTML address tag]
+Description: [Link email using mailto:]
+Date retrieved: [April 5, 2025] -->
+          <td><a href="mailto:whabol@uwaterloo.ca"> whabol@uwaterloo.ca</a>
+          </td>
+          <td>Waterloo, Ontario</td>
+        </tr>
+      </table>
+
+    </div>
 
   </body>
 </html>
